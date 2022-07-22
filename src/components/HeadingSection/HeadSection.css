@@ -1,0 +1,16 @@
+#heading-group h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+#heading-group span{
+    color: #EA1C2C;
+}
+
+/* This query allows us to do something at a particular screen size */
+@media (max-width: 1200px) {
+    #heading-group h1 {
+        font-weight: 100;
+        font-size: 3.5rem;
+    }
+}
